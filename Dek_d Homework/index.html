@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="slider">
+            <div>
+                <input type="radio" onclick="selectionMove()" name="buttons" id="radio1" value="1" class="radio" checked>
+                <input type="radio" onclick="selectionMove()" name="buttons" id="radio2" value="2" class="radio">
+                <input type="radio" onclick="selectionMove()" name="buttons" id="radio3" value="3" class="radio">
+                <input type="radio" onclick="selectionMove()" name="buttons" id="radio4" value="4" class="radio">
+                <input type="radio" onclick="selectionMove()" name="buttons" id="radio5" value="5" class="radio">
+            </div>
+            <div class="slide ">
+                <img src="src/067.jpg" />
+            </div>
+            <div class="slide">
+                <img src="src/177.jpg" />
+ 
+            </div>
+            <div class="slide">
+                <img src="src/277.jpg" />
+              
+            </div>
+            <div class="slide">
+                <img src="src/377.jpg" />
+         
+            </div>
+            <div class="slide">
+                <img src="src/477.jpg" />
+            
+            </div>
+        </div>
+        <div class="slideControler">
+            <button id="prev">
+                <span>&#60;</span>
+            </button>
+            <button id="next">
+                <span>&#62;</span>
+            </button>
+        </div>
+        <div class="radioController">
+            <label for="radio1" class="radioBtn" ></label>
+            <label for="radio2" class="radioBtn"></label>
+            <label for="radio3" class="radioBtn"></label>
+            <label for="radio4" class="radioBtn"></label>
+            <label for="radio5" class="radioBtn"></label>
+        </div>
+    </div>
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
